@@ -1,0 +1,8 @@
+---
+  - hosts: all
+    user: vagrant
+    sudo: yes
+    vars:
+      playbook_name: common-playbook
+    roles:
+      - common
